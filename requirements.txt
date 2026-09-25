@@ -1,0 +1,9 @@
+# 10-K Analyst runtime dependencies (the packages financial_rag_chatbot.py imports).
+# Floors only; the imports used exist on both the LangChain 0.3 and 1.x lines.
+streamlit>=1.30
+langchain-text-splitters>=0.2
+langchain-community>=0.2
+langchain-google-genai>=1.0
+langchain-ollama>=0.1
+faiss-cpu>=1.7.4
+pypdf>=3.15.1

@@ -1,0 +1,23 @@
+# FAISS index cache written by the app (pickled docstore; rebuildable)
+.faiss_cache/
+
+# The 10-K PDFs are public SEC filings and are not redistributed here
+PDFs/
+*.pdf
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
